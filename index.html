@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align:center
+        }
+    </style>
+</head>
+<body>
+    <h2>我的課表</h2>
+    <table class="table table-bordered" ;table style="width:100%">
+        <thead>
+            <tr>
+                <th scope="col">時間</th>
+                <th scope="col">週一</th>
+                <th scope="col">週二</th>
+                <th scope="col">週三</th>
+                <th scope="col">週四</th>
+                <th scope="col">週五</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">18:30~19:15</th>
+                <td rowspan="3">資料結構</td>
+                <td rowspan="2">資訊安全導論</td>
+                <td rowspan="3">資料庫管理系統</td>
+                <td>沒課</td>
+                <td rowspan="3">統計學(一)</td>
+            </tr>
+            <tr>
+                <th scope="row">19:20～20:05</th>
+                <td rowspan="2">體育(一)</td>
+            </tr>
+            <tr>
+                <th scope="row">20:05～20:50</th>
+                <td rowspan="3">網頁程式設計</td>
+            </tr>
+            <tr>
+                <th scope="row">20:55～21:40</th>
+                <td rowspan="2">社會運動(通識)</td>
+                <td>沒課</td>
+                <td>沒課</td>
+                <td>沒課</td>
+            </tr>
+            <tr>
+                <th scope="row">21:40～22:30</th>
+                <td>沒課</td>
+                <td>資訊安全導論</td>
+                <td>沒課</td>
+            </tr>
+        </tbody>
+    </table>
+</html>
